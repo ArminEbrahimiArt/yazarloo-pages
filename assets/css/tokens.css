@@ -1,0 +1,49 @@
+:root {
+  --color-bg: #121212;
+  --color-surface: #1b1b1b;
+  --color-modal-media: #242424;
+  --color-text: #e0e0e0;
+  --color-accent: #e59300;
+  --color-muted: rgba(224, 224, 224, 0.78);
+  --color-subtle: rgba(224, 224, 224, 0.58);
+  --color-line: rgba(224, 224, 224, 0.16);
+  --color-modal-line: #2c2c2c;
+
+  --font-primary: "Special Gothic", sans-serif;
+  --font-size-meta: 0.625rem;
+  --font-size-body: 1rem;
+  --line-height-default: 1.2;
+
+  --page-gutter: 1.25rem;
+  --page-max: 90rem;
+  --header-height: 4.5rem;
+  --header-scroll-gap: 1.5rem;
+  --header-scroll-offset: calc(var(--header-height) + var(--header-scroll-gap));
+  --radius-none: 0;
+  --motion-fast: 240ms;
+  --motion-base: 720ms;
+  --motion-slow: 1000ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-emphasized: cubic-bezier(0.65, 0, 0.35, 1);
+  --reveal-distance: 1rem;
+  --z-header: 40;
+  --z-dialog: 100;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --page-gutter: 2rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --font-size-meta: 0.75rem;
+    --page-gutter: 4rem;
+    --header-height: 5.25rem;
+    --header-scroll-gap: 2rem;
+    --reveal-distance: 1.375rem;
+  }
+}
+
